@@ -1,0 +1,14 @@
+{
+    "name": "AI Image to Text",
+    "description": "Convert images to text quickly and easily with Google's generative-ai.",
+    "version": "0.1",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    }
+}
