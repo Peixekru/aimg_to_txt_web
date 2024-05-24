@@ -41,7 +41,7 @@ Password: demopass. You can use the application for an unlimited time!
 
 # Conclusion:
 
-This image-to-text web application is a powerful tool for converting images into text, utilizing advanced generative models to provide various output types. By incorporating features like historical storage, easy image upload, text editing, and simple copying, the application ensures a user-friendly and efficient experience. The use of modern technologies like Vue 3, vanilla JavaScript, and SCSS further enhances the application's performance and maintainability.
+This image-to-text web application is a powerful tool for converting images into text, utilizing advanced generative models to provide various output types. By incorporating features like historical storage, easy image upload, text editing, and simple copying, the application ensures a user-friendly and efficient experience. The use of modern technologies like Vue 3 and SCSS further enhances the application's performance and maintainability.
 
 
 #####
