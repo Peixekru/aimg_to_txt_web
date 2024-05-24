@@ -9,27 +9,15 @@ The project involves the development of a web application that leverages Google'
 
 # Key Features:
 
-Output Types:
-
 Objective Description: Provides straightforward, factual descriptions of the content in the images.
 Live Description: Offers a more dynamic and detailed narrative of the images.
 Translation: Converts image within text into different languages.
 
-Historical Storage:
-
 Users can store their conversion history in Google Firebase, allowing easy access to past conversions for future reference or further analysis.
-
-Image Upload:
 
 The application supports image upload through drag-and-drop functionality or file selection, providing a user-friendly interface for adding images.
 
-Text Editing:
-
 After conversion, users can edit the generated text directly within the application. This feature allows for fine-tuning and customization of the output before saving or sharing.
-
-Easy Copying:
-
-Users can easily copy the converted text results with a single click, facilitating quick and efficient use of the text in other applications or documents.
 
 # Technologies Used:
 
