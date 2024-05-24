@@ -22,17 +22,16 @@ After conversion, users can edit the generated text directly within the applicat
 # Technologies Used:
 
 Frontend:
----
 
 Vue 3 (Composition API): Utilized for building a responsive and interactive user interface, ensuring a smooth user experience.
 Vanilla JavaScript: Employed for additional scripting needs, providing flexibility and control over the application's functionality.
 SCSS: Used for styling the application, allowing for modular and maintainable CSS with advanced features like variables and nesting.
 
 Backend:
----
 
 Google Firebase: Serves as the backend for storing user data, offering reliable and scalable database solutions.
 
+---
 # How to Use:
 
 Access the application at https://aimg-to-text.web.app/ and log in with:
