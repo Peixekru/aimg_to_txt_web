@@ -54,10 +54,20 @@
 			Descrever imagem em texto.
 		</button>
 
-		<!-- Texto resultante da conversão ou área de texto para edição -->
+		<!-- Texto resultante da conversão ou área de texto para edição em bullets
 		<div class="fadeIn" :class="resultText != '' ? ' result-text' : ''">
 			<div v-if="!isEditing">
 				<p v-for="(text, index) in resultText" :key="index">{{ text }}</p>
+			</div>
+			<div v-else>
+				<textarea v-model="editableText" class="edit-area"></textarea>
+			</div>
+		</div> -->
+
+		<!-- Texto resultante da conversão ou área de texto para edição em parágafo-->
+		<div class="fadeIn" :class="resultText != '' ? ' result-text' : ''">
+			<div v-if="!isEditing">
+				<p>{{ resultText[0] }}</p>
 			</div>
 			<div v-else>
 				<textarea v-model="editableText" class="edit-area"></textarea>
@@ -129,19 +139,19 @@ const generationConfig = {
 const safetySettings = [
 	{
 		category: HarmCategory.HARM_CATEGORY_HARASSMENT,
-		threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
+		threshold: HarmBlockThreshold.BLOCK_NONE,
 	},
 	{
 		category: HarmCategory.HARM_CATEGORY_HATE_SPEECH,
-		threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
+		threshold: HarmBlockThreshold.BLOCK_NONE,
 	},
 	{
 		category: HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,
-		threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
+		threshold: HarmBlockThreshold.BLOCK_NONE,
 	},
 	{
 		category: HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT,
-		threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
+		threshold: HarmBlockThreshold.BLOCK_NONE,
 	},
 ];
 
@@ -264,11 +274,18 @@ const run = async () => {
 			safetySettings,
 		});
 
-		// Ajuste a pontuação e formatação do texto gerado
-		const response = result.response;
+		// Ajuste a pontuação e formatação do texto gerado para bullets
+		/*const response = result.response;
 		resultText.value = response.text().match(/[^.!?]+[.!?]?/g).map((text) => {
 			return `• ${text.trim()}`;
-		});
+		});*/
+
+		// Ajuste a pontuação e formatação do texto gerado para parágrafo
+		const response = result.response;
+		let formattedText = response.text().trim();
+		resultText.value = [formattedText]; // Convertendo o texto em uma matriz de uma única string
+
+
 
 		// Finaliza o loading
 		stopLoading();
