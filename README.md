@@ -5,7 +5,7 @@
 
 # Overview:
 
-The project involves the development of a web application that leverages Google's generative model to convert images into text. The application offers several output types, including objective descriptions, live descriptions, and translations, catering to various user needs and enhancing accessibility.
+The project involves the development of a web application that leverages Google's generative model to convert images into text. The application offers several output types, including objective descriptions, live descriptions, and translations.
 
 # Key Features:
 
@@ -13,7 +13,7 @@ Output Types:
 
 Objective Description: Provides straightforward, factual descriptions of the content in the images.
 Live Description: Offers a more dynamic and detailed narrative of the images.
-Translation: Converts text within images into different languages, broadening the application’s usability for non-native speakers.
+Translation: Converts image within text into different languages.
 
 # Historical Storage:
 
