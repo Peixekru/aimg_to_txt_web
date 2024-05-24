@@ -20,7 +20,7 @@ The application supports image upload through drag-and-drop functionality or fil
 
 After conversion, users can edit the generated text directly within the application. This feature allows for fine-tuning and customization of the output before saving or sharing.
 
----
+# 
 
 ### Frontend:
 
