@@ -1,4 +1,5 @@
-# Image to Text Web Application Generative Model
+Image to Text Web Application Generative Model
+
 ---
 ![](https://github.com/Peixekru/aimg_to_txt_web/blob/main/_info/header.png)
 ---
@@ -19,15 +20,12 @@ The application supports image upload through drag-and-drop functionality or fil
 
 After conversion, users can edit the generated text directly within the application. This feature allows for fine-tuning and customization of the output before saving or sharing.
 
-# Technologies Used:
-
-Frontend:
+# Frontend:
 
 Vue 3 (Composition API): Utilized for building a responsive and interactive user interface, ensuring a smooth user experience.
-Vanilla JavaScript: Employed for additional scripting needs, providing flexibility and control over the application's functionality.
 SCSS: Used for styling the application, allowing for modular and maintainable CSS with advanced features like variables and nesting.
 
-Backend:
+# Backend:
 
 Google Firebase: Serves as the backend for storing user data, offering reliable and scalable database solutions.
 
