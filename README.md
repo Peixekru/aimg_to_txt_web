@@ -1,5 +1,4 @@
-# AI Image 2 Text
-Image-to-Text Web Application Generative Model
+# Image-to-Text Web Application Generative Model
 ---
 ![](https://github.com/Peixekru/aimg_to_txt_web/blob/main/_info/AImg_to_txt_header.png)
 ---
