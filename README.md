@@ -46,4 +46,3 @@ This image-to-text web application is a powerful tool for converting images into
 
 ---
 ![](https://github.com/Peixekru/aimg_to_txt_web/blob/main/_info/descript.png)
----
