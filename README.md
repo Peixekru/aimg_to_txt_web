@@ -20,6 +20,8 @@ The application supports image upload through drag-and-drop functionality or fil
 
 After conversion, users can edit the generated text directly within the application. This feature allows for fine-tuning and customization of the output before saving or sharing.
 
+---
+
 ### Frontend:
 
 Vue 3 (Composition API): Utilized for building a responsive and interactive user interface, ensuring a smooth user experience.
@@ -36,7 +38,7 @@ Google Firebase: Serves as the backend for storing user data, offering reliable 
 * Email: demo@gmail.com  
 * Password: demopass  
    
-You can use the application for an unlimited time!
+> You can use the application for an unlimited time!
 
 # Conclusion:
 
