@@ -32,9 +32,9 @@ Google Firebase: Serves as the backend for storing user data, offering reliable 
 ---
 ### How to Use:
 
-Access the application at https://aimg-to-text.web.app/ and log in with:  
-Email: demo@gmail.com  
-Password: demopass  
+* Access the [application](https://aimg-to-text.web.app) and log in with:  
+* Email: demo@gmail.com  
+* Password: demopass  
    
 You can use the application for an unlimited time!
 
