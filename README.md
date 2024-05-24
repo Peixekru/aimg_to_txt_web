@@ -1,6 +1,6 @@
 # Image to Text Web Application Generative Model
 ---
-![](https://github.com/Peixekru/aimg_to_txt_web/blob/main/_info/AImg_to_txt_header.png)
+![](https://github.com/Peixekru/aimg_to_txt_web/blob/main/_info/header.png)
 ---
 
 # Overview:
@@ -46,5 +46,5 @@ This image-to-text web application is a powerful tool for converting images into
 
 #####
 ---
-![](https://github.com/Peixekru/aimg_to_txt_web/blob/main/_info/AImg_to_txt.png)
+![](https://github.com/Peixekru/aimg_to_txt_web/blob/main/_info/descript.png)
 ---
