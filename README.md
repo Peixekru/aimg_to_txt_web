@@ -15,28 +15,33 @@ Objective Description: Provides straightforward, factual descriptions of the con
 Live Description: Offers a more dynamic and detailed narrative of the images.
 Translation: Converts image within text into different languages.
 
-# Historical Storage:
+Historical Storage:
 
 Users can store their conversion history in Google Firebase, allowing easy access to past conversions for future reference or further analysis.
 
-# Image Upload:
+Image Upload:
 
 The application supports image upload through drag-and-drop functionality or file selection, providing a user-friendly interface for adding images.
+
 Text Editing:
 
 After conversion, users can edit the generated text directly within the application. This feature allows for fine-tuning and customization of the output before saving or sharing.
+
 Easy Copying:
 
 Users can easily copy the converted text results with a single click, facilitating quick and efficient use of the text in other applications or documents.
-Technologies Used:
 
-# Frontend:
+# Technologies Used:
+
+Frontend:
+---
 
 Vue 3 (Composition API): Utilized for building a responsive and interactive user interface, ensuring a smooth user experience.
 Vanilla JavaScript: Employed for additional scripting needs, providing flexibility and control over the application's functionality.
 SCSS: Used for styling the application, allowing for modular and maintainable CSS with advanced features like variables and nesting.
 
-# Backend:
+Backend:
+---
 
 Google Firebase: Serves as the backend for storing user data, offering reliable and scalable database solutions.
 
