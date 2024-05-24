@@ -18,9 +18,8 @@ Translation: Converts image within text into different languages.
 # Historical Storage:
 
 Users can store their conversion history in Google Firebase, allowing easy access to past conversions for future reference or further analysis.
-Image Upload:
 
-# 
+# Image Upload:
 
 The application supports image upload through drag-and-drop functionality or file selection, providing a user-friendly interface for adding images.
 Text Editing:
