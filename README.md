@@ -38,6 +38,7 @@ Google Firebase: Serves as the backend for storing user data, offering reliable 
 * Email: demo@gmail.com  
 * Password: demopass  
    
+> [!NOTE]  
 > You can use the application for an unlimited time!
 
 # Conclusion
